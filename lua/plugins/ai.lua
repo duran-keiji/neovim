@@ -41,7 +41,7 @@ return {
       return {
         -- Copilot currently requires Node.js 22+
         copilot_node_command = pick_node(),
-      suggestion = {
+        suggestion = {
         enabled = true,
         auto_trigger = true,
         keymap = {
