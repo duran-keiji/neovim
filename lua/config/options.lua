@@ -84,3 +84,7 @@ vim.opt.fillchars = vim.opt.fillchars + {
   vertright = "+",
   verthoriz = "+",
 }
+
+-- Ensure UTF-8 encoding for proper Unicode display (including git graph lines)
+vim.opt.encoding = "utf-8"
+vim.opt.fileencoding = "utf-8"
